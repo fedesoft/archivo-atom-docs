@@ -69,3 +69,38 @@ A continuación, se presenta una descripción de los campos utilizados en la imp
 | `eventDates`, `eventTypes`, `eventStartDates`, `eventEndDates`, `eventActors`, `eventActorHistories` | Detalles sobre eventos asociados. |
 | `culture`                       | Código de cultura (idioma) para la descripción, basado en normas ISO.                           |
 | `xClasificacion`, `xLevel`, `xIDMSSQL` | Campos personalizados para clasificaciones o identificadores en sistemas MSSQL (solo para desarrolladores o que estén implicados en la migración). |
+
+
+## Campos para la Importación de Registros de Autoridad 
+
+| Campo                          | Descripción                                                                                      |
+|--------------------------------|--------------------------------------------------------------------------------------------------|
+| `culture`                      | Código de cultura (idioma) para el registro, basado en normas ISO.                               |
+| `typeOfEntity`                 | Tipo de entidad (persona, familia, corporación).                                                 |
+| `authorizedFormOfName`         | Forma autorizada del nombre de la entidad.                                                       |
+| `parallelFormsOfName`          | Formas paralelas del nombre de la entidad.                                                       |
+| `standardizedFormsOfName`      | Formas estandarizadas del nombre.                                                                |
+| `otherFormsOfName`             | Otras formas del nombre de la entidad.                                                           |
+| `corporateBodyIdentifiers`     | Identificadores para cuerpos corporativos.                                                       |
+| `datesOfExistence`             | Fechas de existencia de la entidad.                                                              |
+| `history`                      | Historia de la entidad.                                                                          |
+| `places`                       | Lugares asociados con la entidad.                                                                |
+| `legalStatus`                  | Estado legal de la entidad.                                                                      |
+| `functions`                    | Funciones ejercidas por la entidad.                                                              |
+| `mandates`                     | Mandatos de la entidad.                                                                          |
+| `internalStructures`           | Estructuras internas de la entidad.                                                              |
+| `generalContext`               | Contexto general relacionado con la entidad.                                                     |
+| `descriptionIdentifier`        | Identificador único para la descripción del registro de autoridad.                              |
+| `institutionIdentifier`        | Identificador de la institución asociada con el registro de autoridad.                          |
+| `rules`                        | Reglas o normas seguidas para la creación del registro.                                          |
+| `status`                       | Estado del registro de autoridad (p. ej., borrador, publicado).                                  |
+| `levelOfDetail`                | Nivel de detalle proporcionado en el registro.                                                   |
+| `revisionHistory`              | Historial de revisiones del registro.                                                            |
+| `sources`                      | Fuentes utilizadas para compilar el registro de autoridad.                                       |
+| `maintenanceNotes`             | Notas sobre el mantenimiento del registro.                                                       |
+| `actorOccupations`             | Ocupaciones de la entidad.                                                                       |
+| `actorOccupationNotes`         | Notas sobre las ocupaciones de la entidad.                                                       |
+| `subjectAccessPoints`          | Puntos de acceso por tema asociados con la entidad.                                              |
+| `placeAccessPoints`            | Puntos de acceso por lugar asociados con la entidad.                                             |
+| `digitalObjectPath`, `digitalObjectURI` | Caminos para objetos digitales locales y URIs para objetos digitales en línea. |
+| `xClasificacion`, `xLevel`, `xIDMSSQL` | Campos personalizados para clasificaciones o identificadores en sistemas MSSQL (solo para desarrolladores o que estén implicados en la migración). |
